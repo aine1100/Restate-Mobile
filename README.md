@@ -1,50 +1,91 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+```markdown
+# Real Estate Mobile App 📱
 
-1. Install dependencies
+This is a **React Native** mobile application that serves as a basic real estate app prototype. The app consists of three main pages: **Home**, **Explore**, and **Profile**. It is designed with simplicity in mind and focuses purely on the frontend without backend integration, search, or filter functionalities.
 
+---
+
+## 📂 Features
+
+- **Home Page**: 
+  - Displays a placeholder interface for showcasing properties or relevant information.
+  
+- **Explore Page**: 
+  - A simple layout for exploring placeholder real estate options.
+  
+- **Profile Page**: 
+  - Displays a basic profile page structure.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native**: For building the mobile UI.
+- **Expo Router**: For navigation and managing app pages.
+- **Tailwind CSS (NativeWind)**: For styling components.
+- **Icons**: Custom icons used for tabs.
+
+---
+
+## 🚀 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aine1100/Reestate-Mobile-app.git
+   cd real-estate
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Run the application:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🌟 Features to Add in the Future
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Backend integration for real-time property listings.
+- Search and filter functionalities for better user experience.
+- Detailed property pages with images and descriptions.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🤝 Contributing
 
-```bash
-npm run reset-project
+Contributions are welcome! If you'd like to improve this app or add features, please:
+
+1. Fork the repo.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Icons and assets are sourced from the app's `assets` folder.
+- Built with love using **React Native** and **Expo Router**.
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
