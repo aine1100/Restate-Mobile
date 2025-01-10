@@ -31,7 +31,7 @@ const Explore = () => {
       <View className='mt-5'>
         <Filters/>
         <Text className='text-xl font-rubik-bold text-black-300'>
-          Found {Property.length} Properties
+          Found 7 Properties
 
         </Text>
 
